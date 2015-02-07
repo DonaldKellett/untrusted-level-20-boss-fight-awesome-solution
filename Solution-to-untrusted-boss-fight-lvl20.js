@@ -41,7 +41,6 @@ map.defineObject('minishield', {
     });
     
     map.getPlayer().setPhoneCallback(function(){
-        map.placeObject(9, 5, 'boss');
     map.placeObject(11, 13, 'ANTIboss');
     map.placeObject(13, 13, 'ANTIboss');
     map.placeObject(15, 13, 'ANTIboss');
